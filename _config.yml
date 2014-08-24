@@ -1,8 +1,8 @@
 # Site settings
-title: Freelancer
+title: Shree Ji Corporation
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+description: "Shree Ji Corporation, Textile and Yarn Merchants since 1980, Established in Textile Hub, Bhilwara."
+url: http://shreeji.co
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
@@ -12,20 +12,16 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/ShreeJiCo
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: google-plus
+    url: 
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Office 6, Khabya Market, Bada Bazar
+  - line: Bhilwara, Rajastan 311001, India
 
 # Build settings
 markdown: kramdown
