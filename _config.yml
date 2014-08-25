@@ -2,7 +2,7 @@
 title: Shree Ji Corporation
 email: your-email@domain.com
 description: "Shree Ji Corporation, Textile and Yarn Merchants since 1980, Established in Textile Hub, Bhilwara."
-url: http://shreeji.co
+baseurl: http://www.shreeji.co
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
