@@ -1,54 +1,191 @@
 ---
-layout: base
+layout: page
+title: Shree Jee Corporation
+permalink: /
 ---
-<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
-    
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.title }}</h1>
-            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
-        
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
-            {% endif %}
-            <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss"></i>
-            </a>
+
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp">A PREMIUM INDUSTRIAL THREADING  MANUFACTURING&#38; <br> DISTRIBUTORS </h1>
+          <p class="animated fadeInUp">We love the work we do, and understand threading industry pretty well in India </br> and deliver the best possible solutions for their needs</p>
         </div>
-    </section>
-</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>About Us</h2>
+            <p>We are premium thread merchants located in the heart of textile city Bhilwara since 1986. We have been working with clients of international or national repertoire like Raymond, Wellspun, Arvind Textiles, Morarji Textiles etc. </p>
+          </div>
+          <p>    </p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/logo.png" alt="logo">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
 
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Our Products</h2>
+        <p>We are premium merchants dealing with following line of products.</p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="{{ site.baseurl }}/img/icons/threads.png" alt="industrial threads" width="64" height="64"> 
+          <h4>Industrial Threads</h4>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="{{ site.baseurl }}/img/icons/packaging.jpg" alt="packaging threads" width="64" height="64">
+          <h4>Packaging Solutions</h4>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="{{ site.baseurl }}/img/icons/garment.png" alt="garment" width="64" height="64">
+          <h4>Garment Stiching Threads</h4>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
 
-<article class="container">
-{% for post in paginator.posts %}
-  {% unless post.draft %}
-    <section class="index">
-        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
-        <div>
-            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt }}</p>
-            <div class="meta">
-                Written By <address>{{ post.author.name }}</address> &mdash;
-                <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="{{ site.baseurl }}/img/icons/yarn.jpg" alt="yarn" width="64" height="64">
+          <h4>Outsourcing of Yarn in Fabric</h4>
+          
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="{{ site.baseurl }}/img/icons/tfo.png" alt="tfo" width="64" height="64">
+          <h4>TFO's</h4>
+          <p>2 in 1 yarn</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>We design delightful digital experiences.</h2>
+          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
+          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Fun Facts About Us</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block">
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="ion-ios-chatboxes-outline"></i>
+                <h4 class="counter">20000</h4>
+                <span>Cups Of Coffee</span>
+              </div>
+            </li>
+            <li>
+              <div class="block">
+                <i class="ion-ios-glasses-outline"></i>
+                <h4 class="counter">20000</h4>
+                <span>Cups Of Coffee</span>
+              </div>
+            </li>
+            <li>
+              <div class="block">
+                <i class="ion-ios-compose-outline"></i>
+                <h4 class="counter">20000</h4>
+                <span>Cups Of Coffee</span>
+              </div>
+            </li>
+            <li>
+              <div class="block">
+                <i class="ion-ios-timer-outline"></i>
+                <h4 class="counter">20000</h4>
+                <span>Cups Of Coffee</span>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <div class="user">
+                  <img src="img/item-img1.jpg" alt="Pepole">
+                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                </div>
             </div>
+            <div>
+              <img src="img/cotation.png" alt="IMG">
+                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <div class="user">
+                  <img src="img/item-img1.jpg" alt="Pepole">
+                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                </div>
+            </div>
+            <div>
+              <img src="img/cotation.png" alt="IMG">
+                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <div class="user">
+                  <img src="img/item-img1.jpg" alt="Pepole">
+                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                </div>
+            </div>
+            <div>
+              <img src="img/cotation.png" alt="IMG">
+                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <div class="user">
+                  <img src="img/item-img1.jpg" alt="Pepole">
+                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                </div>
+            </div>
+          </div>
         </div>
-        <hr>
-    </section>
-    {% endunless %}
-    {% endfor %}
-    <section class="pagination" style="text-align:center">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a href="/" class="btn btn-outline">‹ Newer</a>
-        {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
-        {% endif %}
-      {% endif %}
-      {% if paginator.next_page %}
-        <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
-      {% endif %}
-    </section>
-</article>
+      </div>
+    </div>
+  </div>
+</section>
